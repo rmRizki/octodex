@@ -17,39 +17,48 @@ class _ListPageState extends State<ListPage> {
       appBar: AppBar(
         leading: Icon(FontAwesomeIcons.github),
         title: Text('Octodex'),
+        centerTitle: true,
       ),
-      body: SafeArea(
-        child: AnimationLimiter(
-          child: StaggeredGridView.countBuilder(
-            padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
-            itemCount: data.length,
-            crossAxisCount: 4,
-            crossAxisSpacing: 4.0,
-            mainAxisSpacing: 4.0,
-            staggeredTileBuilder: (index) =>
-                StaggeredTile.count(2, index.isEven ? 1 : 2),
-            itemBuilder: (context, index) {
-              var name = data[index]['name'];
-              var url = data[index]['url'];
-              var author = data[index]['author'];
+      body: AnimationLimiter(
+        child: StaggeredGridView.countBuilder(
+          padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
+          itemCount: data.length,
+          crossAxisCount: 4,
+          crossAxisSpacing: 4.0,
+          mainAxisSpacing: 4.0,
+          staggeredTileBuilder: (index) =>
+              StaggeredTile.count(2, index.isEven ? 1 : 2),
+          itemBuilder: (context, index) {
+            var name = data[index]['name'];
+            var url = data[index]['url'];
+            var author = data[index]['author'];
 
-              return AnimationConfiguration.staggeredGrid(
-                columnCount: data.length,
-                position: index,
-                duration: Duration(milliseconds: 375),
-                child: ScaleAnimation(
-                  child: FadeInAnimation(
-                    child: Card(
-                      child: CachedNetworkImage(
-                        imageUrl: url,
-                        fit: BoxFit.cover,
+            return AnimationConfiguration.staggeredGrid(
+              columnCount: data.length,
+              position: index,
+              duration: Duration(milliseconds: 375),
+              child: ScaleAnimation(
+                child: FadeInAnimation(
+                  child: GestureDetector(
+                    onTap: () => Navigator.pushNamed(
+                      context,
+                      '/detail',
+                      arguments: Octodex(name, url, author),
+                    ),
+                    child: Hero(
+                      tag: name,
+                      child: Card(
+                        child: CachedNetworkImage(
+                          imageUrl: url,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                   ),
                 ),
-              );
-            },
-          ),
+              ),
+            );
+          },
         ),
       ),
     );
