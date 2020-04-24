@@ -13,8 +13,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white,
         scaffoldBackgroundColor: Colors.white,
-        cardTheme: CardTheme(elevation: 3.0),
-        appBarTheme: AppBarTheme(elevation: 6.0),
+        buttonTheme: ButtonThemeData(
+          buttonColor: Colors.black87,
+          textTheme: ButtonTextTheme.primary
+        ),
+        cardTheme: CardTheme(elevation: 4.0),
+        appBarTheme: AppBarTheme(elevation: 8.0),
       ),
       title: 'Octodex Gallery',
       initialRoute: '/',
