@@ -9,9 +9,8 @@ List of Octocat pictures from [octodex](https://octodex.github.com/)
 
 ## Screenshot
 
-<img src="https://www.dropbox.com/s/bszuk0zh2h2u6kr/Screenshot_20200424-170712.jpg?raw=1">
-<img src="https://www.dropbox.com/s/6c59aud5gou4bci/Screenshot_20200424-170721.jpg?raw=1">
-
+<img src="https://www.dropbox.com/s/bszuk0zh2h2u6kr/Screenshot_20200424-170712.jpg?raw=1" width="100px" height="auto">
+<img src="https://www.dropbox.com/s/6c59aud5gou4bci/Screenshot_20200424-170721.jpg?raw=1" width="100px" height="auto">
 
 ## Getting Started
 
