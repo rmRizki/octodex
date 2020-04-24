@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.white,
+        scaffoldBackgroundColor: Colors.white,
         cardTheme: CardTheme(elevation: 4.0),
         appBarTheme: AppBarTheme(elevation: 8.0),
       ),
