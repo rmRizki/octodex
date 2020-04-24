@@ -1,618 +1,628 @@
+class Octodex {
+  final String name, url, author;
+  Octodex(this.name, this.url, this.author);
+}
+
 List<Map<String, String>> data = [
   {
-    "name": "the Filmtocat",
+    "name": "Hulatocat",
+    "url": "https://octodex.github.com/images/hula_loop_octodex03.gif",
+    "author": "heyhayhay"
+  },
+  {
+    "name": "Filmtocat",
     "url": "https://octodex.github.com//images/filmtocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Private Investocat",
+    "name": "Private Investocat",
     "url": "https://octodex.github.com//images/privateinvestocat.jpg",
     "author": "jeejkang"
   },
   {
-    "name": "the Gracehoppertocat",
+    "name": "Gracehoppertocat",
     "url": "https://octodex.github.com//images/gracehoppertocat.jpg",
     "author": "jeejkang"
   },
   {
-    "name": "the Gobble-o-tron",
+    "name": "Gobble-o-tron",
     "url": "https://octodex.github.com//images/gobbleotron.gif",
     "author": "JohnCreek"
   },
   {
-    "name": "the Jetpacktocat",
+    "name": "Jetpacktocat",
     "url": "https://octodex.github.com//images/jetpacktocat.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Minertocat",
+    "name": "Minertocat",
     "url": "https://octodex.github.com//images/minertocat.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Mountietocat",
+    "name": "Mountietocat",
     "url": "https://octodex.github.com//images/mountietocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Saketocat",
+    "name": "Saketocat",
     "url": "https://octodex.github.com//images/saketocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Luchadortocat",
+    "name": "Luchadortocat",
     "url": "https://octodex.github.com//images/luchadortocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Saritocat",
+    "name": "Saritocat",
     "url": "https://octodex.github.com//images/saritocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Topguntocat",
+    "name": "Topguntocat",
     "url": "https://octodex.github.com//images/topguntocat.png",
     "author": "JohnCreek"
   },
   {
-    "name": "the Carlostocat",
+    "name": "Carlostocat",
     "url": "https://octodex.github.com//images/carlostocat.gif",
     "author": "JohnCreek"
   },
   {
-    "name": "the Grinchtocat",
+    "name": "Grinchtocat",
     "url": "https://octodex.github.com//images/grinchtocat.gif",
     "author": "leereilly"
   },
   {
-    "name": "the Maxtocat",
+    "name": "Maxtocat",
     "url": "https://octodex.github.com//images/maxtocat.gif",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Yaktocat",
+    "name": "Yaktocat",
     "url": "https://octodex.github.com//images/yaktocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Steroidtocat",
+    "name": "Steroidtocat",
     "url": "https://octodex.github.com//images/steroidtocat.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Mummytocat",
+    "name": "Mummytocat",
     "url": "https://octodex.github.com//images/mummytocat.gif",
     "author": "jeejkang"
   },
   {
-    "name": "the Labtocat",
+    "name": "Labtocat",
     "url": "https://octodex.github.com//images/labtocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Dunetocat",
+    "name": "Dunetocat",
     "url": "https://octodex.github.com//images/dunetocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the OctoLiberty",
+    "name": "OctoLiberty",
     "url": "https://octodex.github.com//images/octoliberty.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Femalecodertocat",
+    "name": "Femalecodertocat",
     "url": "https://octodex.github.com//images/femalecodertocat.png",
     "author": "JohnCreek"
   },
   {
-    "name": "the Daftpunktocat-Thomas",
+    "name": "Daftpunktocat-Thomas",
     "url": "https://octodex.github.com//images/daftpunktocat-thomas.gif",
     "author": "JohnCreek"
   },
   {
-    "name": "the Daftpunktocat-Guy",
+    "name": "Daftpunktocat-Guy",
     "url": "https://octodex.github.com//images/daftpunktocat-guy.gif",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Founding Father v2",
+    "name": "Founding Father v2",
     "url": "https://octodex.github.com//images/foundingfather_v2.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Poptocat v2",
+    "name": "Poptocat v2",
     "url": "https://octodex.github.com//images/poptocat_v2.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Mardigrastocat",
+    "name": "Mardigrastocat",
     "url": "https://octodex.github.com//images/Mardigrastocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Kimonotocat",
+    "name": "Kimonotocat",
     "url": "https://octodex.github.com//images/kimonotocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the professortocat_v2",
+    "name": "professortocat_v2",
     "url": "https://octodex.github.com//images/Professortocat_v2.png",
     "author": "jeejkang"
   },
   {
-    "name": "the goretocat",
+    "name": "goretocat",
     "url": "https://octodex.github.com//images/goretocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Robotocat",
+    "name": "Robotocat",
     "url": "https://octodex.github.com//images/Robotocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Motherhubbertocat",
+    "name": "Motherhubbertocat",
     "url": "https://octodex.github.com//images/motherhubbertocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Skitchtocat",
+    "name": "Skitchtocat",
     "url": "https://octodex.github.com//images/skitchtocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Gangnamtocat",
+    "name": "Gangnamtocat",
     "url": "https://octodex.github.com//images/gangnamtocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Dr.Octocat",
+    "name": "Dr.Octocat",
     "url": "https://octodex.github.com//images/droctocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Spidertocat",
+    "name": "Spidertocat",
     "url": "https://octodex.github.com//images/spidertocat.png",
     "author": "jonrohan"
   },
   {
-    "name": "the Megacat v2",
+    "name": "Megacat v2",
     "url": "https://octodex.github.com//images/megacat-2.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Dodgetocat v2",
+    "name": "Dodgetocat v2",
     "url": "https://octodex.github.com//images/dodgetocat_v2.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Stormtroopocat",
+    "name": "Stormtroopocat",
     "url": "https://octodex.github.com//images/stormtroopocat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Pusheencat",
+    "name": "Pusheencat",
     "url": "https://octodex.github.com//images/pusheencat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Deckfailcat",
+    "name": " Deckfailcat",
     "url": "https://octodex.github.com//images/deckfailcat.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Murakamicat",
+    "name": "Murakamicat",
     "url": "https://octodex.github.com//images/murakamicat.png",
     "author": "jeejkang"
   },
   {
-    "name": "the Homercat",
+    "name": "Homercat",
     "url": "https://octodex.github.com//images/homercat.png",
     "author": "billyroh"
   },
   {
-    "name": "the Minion",
+    "name": "Minion",
     "url": "https://octodex.github.com//images/minion.png",
     "author": "mattgraham"
   },
   {
-    "name": "the Droidtocat",
+    "name": "Droidtocat",
     "url": "https://octodex.github.com//images/droidtocat.png",
     "author": "billyroh"
   },
   {
-    "name": "the Octofez",
+    "name": "Octofez",
     "url": "https://octodex.github.com//images/octofez.png",
     "author": "nickh"
   },
   {
-    "name": "the Heisencat",
+    "name": "Heisencat",
     "url": "https://octodex.github.com//images/heisencat.png",
     "author": "nickh"
   },
   {
-    "name": "the Red Polo",
+    "name": "Red Polo",
     "url": "https://octodex.github.com//images/red-polo.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the 20% Cooler Octocat",
+    "name": "20% Cooler Octocat",
     "url":
         "https://octodex.github.com//images/twenty-percent-cooler-octocat.png",
     "author": "nickh"
   },
   {
-    "name": "the Momtocat",
+    "name": "Momtocat",
     "url": "https://octodex.github.com//images/momtocat.png",
     "author": "jonrohan"
   },
   {
-    "name": "the Front-End Conftocat",
+    "name": "Front-End Conftocat",
     "url": "https://octodex.github.com//images/front-end-conftocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Snow Octocat",
+    "name": "Snow Octocat",
     "url": "https://octodex.github.com//images/snowoctocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Electrocat",
+    "name": "Electrocat",
     "url": "https://octodex.github.com//images/electrocat.png",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Codercat",
+    "name": "Codercat",
     "url": "https://octodex.github.com//images/codercat.jpg",
     "author": "tonyjaramillo"
   },
   {
-    "name": "the Strongbadtocat",
+    "name": "Strongbadtocat",
     "url": "https://octodex.github.com//images/strongbadtocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Adventure Cat",
+    "name": "Adventure Cat",
     "url": "https://octodex.github.com//images/adventure-cat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Doctocat Brown",
+    "name": "Doctocat Brown",
     "url": "https://octodex.github.com//images/doctocat-brown.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Dojocat",
+    "name": "Dojocat",
     "url": "https://octodex.github.com//images/dojocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Defunktocat",
+    "name": "Defunktocat",
     "url": "https://octodex.github.com//images/defunktocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Nemesis",
+    "name": "Nemesis",
     "url": "https://octodex.github.com//images/herme-t-crabb.png",
     "author": "jonrohan"
   },
   {
-    "name": "the Saint Nicktocat",
+    "name": "Saint Nicktocat",
     "url": "https://octodex.github.com//images/saint-nicktocat.jpg",
     "author": "jonrohan"
   },
   {
-    "name": "the Ordered Listocat",
+    "name": "Ordered Listocat",
     "url": "https://octodex.github.com//images/orderedlistocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Thanktocat",
+    "name": "Thanktocat",
     "url": "https://octodex.github.com//images/thanktocat.png",
     "author": "jasoncostello"
   },
   {
-    "name": "the Megacat",
+    "name": "Megacat",
     "url": "https://octodex.github.com//images/megacat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Linktocat",
+    "name": "Linktocat",
     "url": "https://octodex.github.com//images/linktocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Plumber",
+    "name": "Plumber",
     "url": "https://octodex.github.com//images/plumber.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Octotron",
+    "name": "Octotron",
     "url": "https://octodex.github.com//images/octotron.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Baracktocat",
+    "name": "Baracktocat",
     "url": "https://octodex.github.com//images/baracktocat.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Octocat De Los Muertos",
+    "name": "Octocat De Los Muertos",
     "url": "https://octodex.github.com//images/octocat-de-los-muertos.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Grim Repo",
+    "name": "Grim Repo",
     "url": "https://octodex.github.com//images/grim-repo.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Father Timeout",
+    "name": "Father Timeout",
     "url": "https://octodex.github.com//images/father_timeout.jpg",
     "author": "broccolini"
   },
   {
-    "name": "the Where's Waldocat",
+    "name": "Where's Waldocat",
     "url": "https://octodex.github.com//images/waldocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Hipster Partycat",
+    "name": "Hipster Partycat",
     "url": "https://octodex.github.com//images/hipster-partycat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Riddlocat",
+    "name": "Riddlocat",
     "url": "https://octodex.github.com//images/riddlocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Visionary",
+    "name": "Visionary",
     "url": "https://octodex.github.com//images/visionary.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Oktobercat",
+    "name": "Oktobercat",
     "url": "https://octodex.github.com//images/oktobercat.png",
     "author": "jasoncostello"
   },
   {
-    "name": "the Shoptocat",
+    "name": "Shoptocat",
     "url": "https://octodex.github.com//images/shoptocat.png",
     "author": "jina"
   },
   {
-    "name": "the Nyantocat",
+    "name": "Nyantocat",
     "url": "https://octodex.github.com//images/nyantocat.gif",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Octdrey Catburn",
+    "name": "Octdrey Catburn",
     "url": "https://octodex.github.com//images/octdrey-catburn.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Spectrocat",
+    "name": "Spectrocat",
     "url": "https://octodex.github.com//images/spectrocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Bear Cavalry",
+    "name": "Bear Cavalry",
     "url": "https://octodex.github.com//images/bear-cavalry.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Andycat",
+    "name": "Andycat",
     "url": "https://octodex.github.com//images/andycat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Not Octocat",
+    "name": "Not Octocat",
     "url": "https://octodex.github.com//images/notocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Dodge, Duck, Dip, Dive, Dodgetocat",
+    "name": "Dodge, Duck, Dip, Dive, Dodgetocat",
     "url": "https://octodex.github.com//images/dodgetocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Cloud",
+    "name": "Cloud",
     "url": "https://octodex.github.com//images/cloud.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Scarletteocat",
+    "name": "Scarletteocat",
     "url": "https://octodex.github.com//images/scarletteocat.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Poptocat",
+    "name": "Poptocat",
     "url": "https://octodex.github.com//images/poptocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Jenktocat",
+    "name": "Jenktocat",
     "url": "https://octodex.github.com//images/jenktocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the X-tocat",
+    "name": "X-tocat",
     "url": "https://octodex.github.com//images/xtocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Chellocat",
+    "name": "Chellocat",
     "url": "https://octodex.github.com//images/chellocat.jpg",
     "author": "jordanmccullough"
   },
   {
-    "name": "the Cherryontop-o-cat",
+    "name": "Cherryontop-o-cat",
     "url": "https://octodex.github.com//images/cherryontop-o-cat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Supportcat",
+    "name": "Supportcat",
     "url": "https://octodex.github.com//images/supportcat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Collabocats",
+    "name": "Collabocats",
     "url": "https://octodex.github.com//images/collabocats.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Constructocat",
+    "name": "Constructocat",
     "url": "https://octodex.github.com//images/constructocat2.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Total Eclipse of the Octocat",
+    "name": "Total Eclipse of Octocat",
     "url":
         "https://octodex.github.com//images/total-eclipse-of-the-octocat.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Blinktocat, Pinktocat, Inktocat, and Clyde",
+    "name": "Blinktocat, Pinktocat, Inktocat, and Clyde",
     "url": "https://octodex.github.com//images/pacman-ghosts.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Okal-Eltocat",
+    "name": "Okal-Eltocat",
     "url": "https://octodex.github.com//images/okal-eltocat.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Octoclark Kentocat",
+    "name": "Octoclark Kentocat",
     "url": "https://octodex.github.com//images/octoclark-kentocat.jpg",
     "author": "jasoncostello"
   },
   {
-    "name": "the Agendacat",
+    "name": "Agendacat",
     "url": "https://octodex.github.com//images/agendacat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the IronCat",
+    "name": "IronCat",
     "url": "https://octodex.github.com//images/ironcat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Inspectocat",
+    "name": "Inspectocat",
     "url": "https://octodex.github.com//images/inspectocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Jean-Luc Picat",
+    "name": "Jean-Luc Picat",
     "url": "https://octodex.github.com//images/jean-luc-picat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Spocktocat",
+    "name": "Spocktocat",
     "url": "https://octodex.github.com//images/spocktocat.png",
     "author": "jasoncostello"
   },
   {
-    "name": "the Wilson",
+    "name": "Wilson",
     "url": "https://octodex.github.com//images/wilson.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Swagtocat",
+    "name": "Swagtocat",
     "url": "https://octodex.github.com//images/swagtocat.png",
     "author": "jasoncostello"
   },
   {
-    "name": "the Drunktocat",
+    "name": "Drunktocat",
     "url": "https://octodex.github.com//images/drunktocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Hubot",
+    "name": "Hubot",
     "url": "https://octodex.github.com//images/hubot.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Monroe",
+    "name": "Monroe",
     "url": "https://octodex.github.com//images/monroe.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Trekkie",
+    "name": "Trekkie",
     "url": "https://octodex.github.com//images/trekkie.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Octonaut",
+    "name": "Octonaut",
     "url": "https://octodex.github.com//images/octonaut.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Bouncer",
+    "name": "Bouncer",
     "url": "https://octodex.github.com//images/bouncercat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Founding Father",
+    "name": "Founding Father",
     "url": "https://octodex.github.com//images/founding-father.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Pythocat",
+    "name": "Pythocat",
     "url": "https://octodex.github.com//images/pythocat.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Drupalcat",
+    "name": "Drupalcat",
     "url": "https://octodex.github.com//images/drupalcat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Socialite",
+    "name": "Socialite",
     "url": "https://octodex.github.com//images/socialite.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Setuptocat",
+    "name": "Setuptocat",
     "url": "https://octodex.github.com//images/setuptocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Repo",
+    "name": "Repo",
     "url": "https://octodex.github.com//images/repo.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Forktocat",
+    "name": "Forktocat",
     "url": "https://octodex.github.com//images/forktocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Benevocats",
+    "name": "Benevocats",
     "url": "https://octodex.github.com//images/benevocats.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Scottocat",
+    "name": "Scottocat",
     "url": "https://octodex.github.com//images/scottocat.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Puppeteer",
+    "name": "Puppeteer",
     "url": "https://octodex.github.com//images/puppeteer.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Octobi Wan Catnobi",
+    "name": "Octobi Wan Catnobi",
     "url": "https://octodex.github.com//images/octobiwan.jpg",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Class Act",
+    "name": "Class Act",
     "url": "https://octodex.github.com//images/class-act.png",
     "author": "cameronmcefee"
   },
   {
-    "name": "the Original",
+    "name": "Original",
     "url": "https://octodex.github.com//images/original.png",
     "author": "cameronmcefee"
   }
