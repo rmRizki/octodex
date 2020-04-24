@@ -1,0 +1,45 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:octodex_gallery/models/octodex.dart';
+
+class ListPage extends StatefulWidget {
+  @override
+  _ListPageState createState() => _ListPageState();
+}
+
+class _ListPageState extends State<ListPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        leading: Icon(FontAwesomeIcons.github),
+        title: Text('Octodex'),
+      ),
+      body: SafeArea(
+        child: StaggeredGridView.countBuilder(
+          padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
+          itemCount: data.length,
+          crossAxisCount: 4,
+          crossAxisSpacing: 4.0,
+          mainAxisSpacing: 4.0,
+          staggeredTileBuilder: (index) =>
+              StaggeredTile.count(2, index.isEven ? 1 : 2),
+          itemBuilder: (context, index) {
+            var name = data[index]['name'];
+            var url = data[index]['url'];
+            var author = data[index]['author'];
+
+            return Card(
+              child: CachedNetworkImage(
+                imageUrl: url,
+                fit: BoxFit.cover,
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
